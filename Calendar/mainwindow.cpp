@@ -118,7 +118,7 @@ void MainWindow::on_load_clicked()
     }
 }
 
-void MainWindow::on_lineEdit_cursorPositionChanged(int arg1, int arg2)
+void MainWindow::on_lineEdit_cursorPositionChanged(int , int)
 {
     ui->Enter->setEnabled(true);
 }

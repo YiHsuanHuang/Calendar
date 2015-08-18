@@ -31,7 +31,7 @@ private:
 private slots:
     void updateTime();
     void on_load_clicked();
-    void on_lineEdit_cursorPositionChanged(int arg1, int arg2);
+    void on_lineEdit_cursorPositionChanged(int, int );
 };
 
 #endif // MAINWINDOW_H
